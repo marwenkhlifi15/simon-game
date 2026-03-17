@@ -1,52 +1,52 @@
 # Simon Game 🎮
 
-Un petit jeu Simon classique développé en **HTML, CSS et JavaScript**.  
-Le but du jeu est de mémoriser et reproduire une séquence de couleurs qui devient de plus en plus longue à chaque niveau.
+A simple classic **Simon Game** built with **HTML, CSS, and JavaScript**.  
+The goal is to remember and repeat an increasingly long sequence of colors.
 
-🔗 **Live Demo** : https://marwenkhlifi15.github.io/simon-game/
-
----
-
-## 🎯 Objectifs du projet
-
-- Pratiquer la **manipulation du DOM** avec JavaScript.
-- Gérer les **événements clavier et clic**.
-- Travailler avec des **tableaux**, des **séquences aléatoires** et la logique de jeu.
-- Ajouter des **effets sonores** et des animations simples pour améliorer l’expérience utilisateur.
+🔗 **Live Demo**: https://marwenkhlifi15.github.io/simon-game/
 
 ---
 
-## 🧩 Règles du jeu
+## 🎯 Project Goals
 
-1. Appuie sur **n'importe quelle touche** du clavier pour démarrer la partie.
-2. Le jeu affiche une séquence de couleurs (une au début, puis de plus en plus longue).
-3. Clique sur les boutons de couleur dans **le même ordre** que la séquence affichée.
-4. Si tu te trompes :
-   - Un son d’erreur est joué.
-   - L’écran clignote en rouge.
-   - Le message « *Game Over, Press Any Key to Restart* » s’affiche.
-5. Appuie sur une touche pour **recommencer** depuis le niveau 1.
+- Practice **DOM manipulation** with JavaScript.
+- Work with **keyboard and click events**.
+- Use **arrays**, **random sequences**, and basic game logic.
+- Add simple **sounds and animations** to improve the user experience.
 
 ---
 
-## 🛠️ Technologies utilisées
+## 🧩 How to Play
 
-- **HTML5** – structure de la page
-- **CSS3** – styles et mise en forme
-- **JavaScript (ES6)** – logique du jeu
-- **jQuery** – gestion des événements et sélecteurs plus simples
-- **Audio** – sons pour chaque bouton + son d’erreur
+1. Press **any key** on your keyboard to start the game.
+2. The game will show a sequence of colors (starting with one, then increasing).
+3. Click on the color buttons in **the same order** as the sequence.
+4. If you click the wrong color:
+   - A “wrong” sound is played.
+   - The screen flashes red.
+   - The message “*Game Over, Press Any Key to Restart*” is shown.
+5. Press any key again to **restart from level 1**.
 
 ---
 
-## 📂 Structure du projet
+## 🛠️ Tech Stack
+
+- **HTML5** – page structure  
+- **CSS3** – styling and layout  
+- **JavaScript (ES6)** – game logic  
+- **jQuery** – simpler DOM selection and event handling  
+- **Audio** – sounds for each button + error sound  
+
+---
+
+## 📂 Project Structure
 
 ```text
 .
-├── index.html       # Structure principale du jeu
-├── styles.css       # Styles du jeu (layout, couleurs, animations)
-├── game.js          # Logique du jeu (séquence, input utilisateur, vérification)
-└── sounds/          # Sons pour chaque couleur + son d'erreur
+├── index.html    # Main page
+├── styles.css    # Styles (layout, colors, animations)
+├── game.js       # Game logic (sequence, user input, checks)
+└── sounds/       # Audio files
     ├── red.mp3
     ├── blue.mp3
     ├── green.mp3
